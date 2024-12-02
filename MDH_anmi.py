@@ -118,6 +118,6 @@ def update_point(aa):
 
 
 ani=animation.FuncAnimation(fig, update_point,interval=10, fargs=())
-
+ani.save("output.gif")
 
 
